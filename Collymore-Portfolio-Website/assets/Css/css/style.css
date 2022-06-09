@@ -1,0 +1,90 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #ccc;
+    font-family: Arial;
+}
+
+
+header {
+    background-color: rgb(54, 103, 72);
+    padding: 30px;
+    display: block;
+    border: 40px; border-color: black;
+    margin: 20px;
+}
+/* the hero image */
+
+
+.navbar ul{
+    list-style: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+    text-align: right;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:rgb(96, 137, 102);
+    width: 80px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+
+.navbar a:hover{
+    background: #353640;
+    text-align: right;
+}
+
+footer a{
+    align-content: center;
+    display: block;
+}
+
+p a{
+    text-align: right;
+    display: block;
+}
+
+.div image{
+    justify-content: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    border: 20px #353640;
+    border-radius: 50px;
+}
+
+footer{
+    background-color: rgb(54, 103, 72);
+    padding: 25px 20px;
+    font-weight: bold;
+    width: 250px;
+    display: block;
+    text-align: center;
+
+}
+
+footer a:hover{
+    background: #353640;
+    text-align: center;
+
+}
